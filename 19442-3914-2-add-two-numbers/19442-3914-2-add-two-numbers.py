@@ -34,3 +34,4 @@ class Solution:
             b.next = t
             b = t
         return ans
+    #Take n1 and n2 by iterations and add two numbers. From end(10^0) of added number, makes ListNode and link to the next ListNode.
