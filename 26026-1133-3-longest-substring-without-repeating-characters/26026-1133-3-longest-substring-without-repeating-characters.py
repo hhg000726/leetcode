@@ -14,3 +14,4 @@ class Solution:
             ans = max(ans, l)
             d[s[i]] = i
         return ans
+    #Rememeber the last index of alphabet(using dictionary) in s to check from where I have to count characters and revise values.
