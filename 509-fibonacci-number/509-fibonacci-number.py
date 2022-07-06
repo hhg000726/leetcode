@@ -3,7 +3,5 @@ class Solution:
         dp1 = 0
         dp2 = 1
         for _ in range(n):
-            t = dp2 + dp1
-            dp1 = dp2
-            dp2 = t
+            dp1, dp2 = dp2, dp1 + dp2
         return dp1
