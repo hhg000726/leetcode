@@ -9,9 +9,8 @@ class Solution:
             else:
                 d[i] = 1
         for i in d:
-            if d[i] % 2 == 0:
-                answer += d[i]
-            else:
+            answer += d[i]
+            if d[i] % 2 != 0:
                 odd = True
-                answer += d[i] - 1
+                answer -= 1
         return answer + odd
