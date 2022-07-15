@@ -1,3 +1,4 @@
+#전형적인 탐색 문제. 여기서는 bfs를 이용해서 면적을 구했다.
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         
